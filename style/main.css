@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Rubik', sans-serif;
+
+}
+
+header {
+
+    max-width: 1250px;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+nav ul li 
+
+   {
+
+display: inline-block;
+padding: 0px 20px;
+color: #C4C4C4;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+nav ul li:hover {
+color: rgba(5, 139, 140, 1);
+cursor: pointer;
+}
+
+.header_btn {
+
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    padding: 10px 25px;
+    color: white;
+}
+
+.header_btn:hover {
+
+    color: white;
+}
+
+
+footer {
+
+    max-width: 1230px;
+    margin: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+p {
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px; /* 166.667% */
+padding: 15px 0px;
+width: 350px;
+height: 95px;
+flex-shrink: 0;
+margin: 0.5rem;
+}
+
+.column_two ul li {
+
+    list-style: none;
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+padding: 09px 0px;
+
+}
+
+
+.column_four ul li {
+
+    list-style: none;
+    color: #8F8F8F;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    padding: 09px 0px;
+}
+
+.column_three ul li {
+
+    list-style: none;
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */   
+padding: 09px 0px;
+}
+
+.news_letter {
+
+    display: flex;
+    padding: 30px 0px;
+}
+
+.news_letter input {
+
+    width: 80%;
+    border-radius: 341px;
+    border: 2px solid #058B8C;
+    height: 40px;
+    padding-left: 30px;
+}
+
+.news_letter button {
+
+    width: 15%;
+    margin-left: 1rem;
+    border-radius: 48px;
+background: #058B8C;
+box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+color: white;
+border: none;
+}
+
